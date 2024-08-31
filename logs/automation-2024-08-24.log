@@ -1,0 +1,52 @@
+23:14:00.991 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:14:01.008 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:14:01.009 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:14:01.010 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:14:01.026 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:14:01.028 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:14:01.028 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:14:01.041 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:14:01.042 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:14:01.042 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:14:01.054 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:14:01.055 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:14:01.056 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:14:01.077 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+23:14:01.078 [main] INFO  testCases.TC003_LoginDDT - Clicking on Home Page
+23:14:01.627 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Page
+23:14:01.630 [main] INFO  testCases.TC003_LoginDDT - Entering Email
+23:14:01.750 [main] INFO  testCases.TC003_LoginDDT - Entering Password
+23:14:01.845 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Button
+23:14:02.726 [main] DEBUG testCases.TC003_LoginDDT - Checking if My Account is Displayed
+23:14:03.528 [main] INFO  testCases.TC003_LoginDDT - ***** Ending TC003_LoginDDT *****
+23:14:03.548 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+23:14:03.548 [main] INFO  testCases.TC003_LoginDDT - Clicking on Home Page
+23:14:04.094 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Page
+23:14:04.094 [main] INFO  testCases.TC003_LoginDDT - Entering Email
+23:14:04.193 [main] INFO  testCases.TC003_LoginDDT - Entering Password
+23:14:04.328 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Button
+23:14:05.554 [main] DEBUG testCases.TC003_LoginDDT - Checking if My Account is Displayed
+23:14:05.636 [main] INFO  testCases.TC003_LoginDDT - ***** Ending TC003_LoginDDT *****
+23:14:05.639 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+23:14:05.639 [main] INFO  testCases.TC003_LoginDDT - Clicking on Home Page
+23:15:57.938 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\grid-docker.xml"
+23:15:58.188 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\grid-docker.xml
+
+23:16:06.277 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+23:16:06.505 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+23:16:07.359 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+23:16:07.365 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+23:16:09.068 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+23:16:09.154 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+23:16:17.454 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+23:16:17.454 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
+23:16:18.014 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
+23:16:18.018 [main] INFO  testCases.TC002_LoginTest - Entering Email
+23:16:18.185 [main] INFO  testCases.TC002_LoginTest - Entering Password
+23:16:18.280 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
+23:16:19.175 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
+23:16:19.259 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+23:16:27.460 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+23:16:27.755 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+23:16:28.466 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link

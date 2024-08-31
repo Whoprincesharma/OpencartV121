@@ -1,0 +1,58 @@
+18:13:39.488 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+18:13:40.176 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+18:13:40.180 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+18:13:41.796 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+18:13:41.833 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+18:13:45.861 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+18:13:45.862 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
+18:13:46.399 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
+18:13:46.402 [main] INFO  testCases.TC002_LoginTest - Entering Email
+18:13:46.590 [main] INFO  testCases.TC002_LoginTest - Entering Password
+18:13:46.659 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
+18:13:47.458 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
+18:13:47.494 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+18:14:34.620 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\grouping.xml"
+18:14:34.796 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\grouping.xml
+
+18:14:39.168 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+18:14:39.268 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+18:14:39.975 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+18:14:39.978 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+18:14:41.532 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+18:14:41.568 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+18:14:45.920 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+18:14:45.920 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
+18:14:46.431 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
+18:14:46.433 [main] INFO  testCases.TC002_LoginTest - Entering Email
+18:14:46.598 [main] INFO  testCases.TC002_LoginTest - Entering Password
+18:14:46.666 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
+18:14:47.203 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
+18:28:45.047 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\grouping.xml"
+18:28:45.307 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\grouping.xml
+
+18:28:50.206 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+18:28:50.384 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+18:28:51.062 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+18:28:51.066 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+18:28:52.580 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+18:28:52.615 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+18:28:56.330 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+18:28:56.330 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
+18:28:56.848 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
+18:28:56.862 [main] INFO  testCases.TC002_LoginTest - Entering Email
+18:28:57.097 [main] INFO  testCases.TC002_LoginTest - Entering Password
+18:28:57.214 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
+18:28:57.787 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
+18:33:37.295 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\grouping.xml"
+18:33:37.500 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\grouping.xml
+
+18:33:42.197 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+18:33:42.376 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+18:33:43.099 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+18:33:43.102 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+18:33:45.125 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+18:33:45.172 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+18:33:55.066 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****

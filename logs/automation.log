@@ -1,0 +1,42 @@
+19:57:36.328 [main] INFO  testCases.TC003_LoginDDT - Entering Email
+19:57:36.515 [main] INFO  testCases.TC003_LoginDDT - Entering Password
+19:57:36.651 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Button
+19:57:37.362 [main] DEBUG testCases.TC003_LoginDDT - Checking if My Account is Displayed
+19:57:47.558 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+19:57:47.558 [main] INFO  testCases.TC003_LoginDDT - Clicking on Home Page
+19:57:48.455 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Page
+19:57:48.455 [main] INFO  testCases.TC003_LoginDDT - Entering Email
+19:57:48.649 [main] INFO  testCases.TC003_LoginDDT - Entering Password
+19:57:48.769 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Button
+19:57:50.128 [main] DEBUG testCases.TC003_LoginDDT - Checking if My Account is Displayed
+19:57:50.840 [main] INFO  testCases.TC003_LoginDDT - ***** Ending TC003_LoginDDT *****
+20:14:16.863 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\master.xml"
+20:14:21.393 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+20:14:21.495 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+20:14:22.197 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+20:14:22.197 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+20:14:23.719 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+20:14:23.759 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+20:14:27.627 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+20:14:27.627 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
+20:14:28.146 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
+20:14:28.149 [main] INFO  testCases.TC002_LoginTest - Entering Email
+20:14:28.377 [main] INFO  testCases.TC002_LoginTest - Entering Password
+20:14:28.467 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
+20:14:29.280 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
+20:14:29.321 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+20:19:49.365 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\master.xml"
+20:19:54.022 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
+20:19:54.125 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
+20:19:54.876 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
+20:19:54.877 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
+20:19:56.916 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
+20:19:56.954 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
+20:20:00.651 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+20:20:00.652 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
+20:20:01.158 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
+20:20:01.161 [main] INFO  testCases.TC002_LoginTest - Entering Email
+20:20:01.366 [main] INFO  testCases.TC002_LoginTest - Entering Password
+20:20:01.457 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
+20:20:03.077 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
+20:20:03.119 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
