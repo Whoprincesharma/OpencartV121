@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-24T23:15:58 EDT" name="Suite" finished-at="2024-08-24T23:16:38 EDT" duration-ms="40155">
+  <suite started-at="2024-09-07T15:51:20 EDT" name="Suite" finished-at="2024-09-07T15:51:27 EDT" duration-ms="6950">
     <groups>
       <group name="Master">
-        <method signature="TC001_AcoountRegisterationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@3381b4fc]" name="verify_account_registration" class="testCases.TC001_AcoountRegisterationTest"/>
-        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@aeab9a1]" name="verify_login" class="testCases.TC002_LoginTest"/>
-        <method signature="TC001_AcoountRegisterationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@320de594]" name="verify_account_registration" class="testCases.TC001_AcoountRegisterationTest"/>
-        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@3dd1dc90]" name="verify_login" class="testCases.TC002_LoginTest"/>
+        <method signature="TC005_AddToCartPageTest.verify_addToCart()[pri:0, instance:testCases.TC005_AddToCartPageTest@70efb718]" name="verify_addToCart" class="testCases.TC005_AddToCartPageTest"/>
       </group> <!-- Master -->
-      <group name="Sanity">
-        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@aeab9a1]" name="verify_login" class="testCases.TC002_LoginTest"/>
-        <method signature="TC002_LoginTest.verify_login()[pri:0, instance:testCases.TC002_LoginTest@3dd1dc90]" name="verify_login" class="testCases.TC002_LoginTest"/>
-      </group> <!-- Sanity -->
-      <group name="Regression">
-        <method signature="TC001_AcoountRegisterationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@3381b4fc]" name="verify_account_registration" class="testCases.TC001_AcoountRegisterationTest"/>
-        <method signature="TC001_AcoountRegisterationTest.verify_account_registration()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@320de594]" name="verify_account_registration" class="testCases.TC001_AcoountRegisterationTest"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-08-24T23:15:58 EDT" name="Linux-Chrome" finished-at="2024-08-24T23:16:19 EDT" duration-ms="21195">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@aeab9a1]" started-at="2024-08-24T23:16:09 EDT" name="setup" finished-at="2024-08-24T23:16:17 EDT" duration-ms="8178" status="PASS">
+    <test started-at="2024-09-07T15:51:20 EDT" name="Test" finished-at="2024-09-07T15:51:27 EDT" duration-ms="6950">
+      <class name="testCases.TC005_AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_AddToCartPageTest@70efb718]" started-at="2024-09-07T15:51:20 EDT" name="setup" finished-at="2024-09-07T15:51:24 EDT" duration-ms="3905" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
@@ -37,95 +26,57 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@aeab9a1]" started-at="2024-08-24T23:16:17 EDT" name="verify_login" finished-at="2024-08-24T23:16:19 EDT" duration-ms="1806" status="PASS">
+        <test-method signature="verify_addToCart()[pri:0, instance:testCases.TC005_AddToCartPageTest@70efb718]" started-at="2024-09-07T15:51:24 EDT" name="verify_addToCart" finished-at="2024-09-07T15:51:27 EDT" duration-ms="2503" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[*****Confirmation Message Did not Displayed***** expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: *****Confirmation Message Did not Displayed***** expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1067)
+at org.testng.Assert.assertEquals(Assert.java:1031)
+at testCases.TC005_AddToCartPageTest.verify_addToCart(TC005_AddToCartPageTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@aeab9a1]" started-at="2024-08-24T23:16:19 EDT" name="tearDown" finished-at="2024-08-24T23:16:19 EDT" duration-ms="133" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AcoountRegisterationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AcoountRegisterationTest@3381b4fc]" started-at="2024-08-24T23:15:58 EDT" name="setup" finished-at="2024-08-24T23:16:06 EDT" duration-ms="7852" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@3381b4fc]" started-at="2024-08-24T23:16:06 EDT" name="verify_account_registration" finished-at="2024-08-24T23:16:09 EDT" duration-ms="2890" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@3381b4fc]" started-at="2024-08-24T23:16:09 EDT" name="tearDown" finished-at="2024-08-24T23:16:09 EDT" duration-ms="101" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AcoountRegisterationTest -->
-    </test> <!-- Linux-Chrome -->
-    <test started-at="2024-08-24T23:16:20 EDT" name="Linux-Firefox" finished-at="2024-08-24T23:16:38 EDT" duration-ms="18044">
-      <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@3dd1dc90]" started-at="2024-08-24T23:16:30 EDT" name="setup" finished-at="2024-08-24T23:16:35 EDT" duration-ms="4867" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_LoginTest@3dd1dc90]" started-at="2024-08-24T23:16:35 EDT" name="verify_login" finished-at="2024-08-24T23:16:37 EDT" duration-ms="1801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@3dd1dc90]" started-at="2024-08-24T23:16:37 EDT" name="tearDown" finished-at="2024-08-24T23:16:38 EDT" duration-ms="795" status="PASS">
+        </test-method> <!-- verify_addToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_AddToCartPageTest@70efb718]" started-at="2024-09-07T15:51:27 EDT" name="tearDown" finished-at="2024-09-07T15:51:27 EDT" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AcoountRegisterationTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AcoountRegisterationTest@320de594]" started-at="2024-08-24T23:16:20 EDT" name="setup" finished-at="2024-08-24T23:16:27 EDT" duration-ms="7149" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Linux]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verify_account_registration()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@320de594]" started-at="2024-08-24T23:16:27 EDT" name="verify_account_registration" finished-at="2024-08-24T23:16:30 EDT" duration-ms="2645" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_account_registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AcoountRegisterationTest@320de594]" started-at="2024-08-24T23:16:30 EDT" name="tearDown" finished-at="2024-08-24T23:16:30 EDT" duration-ms="782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AcoountRegisterationTest -->
-    </test> <!-- Linux-Firefox -->
+      </class> <!-- testCases.TC005_AddToCartPageTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

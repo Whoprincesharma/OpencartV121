@@ -1,42 +1,123 @@
-19:57:36.328 [main] INFO  testCases.TC003_LoginDDT - Entering Email
-19:57:36.515 [main] INFO  testCases.TC003_LoginDDT - Entering Password
-19:57:36.651 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Button
-19:57:37.362 [main] DEBUG testCases.TC003_LoginDDT - Checking if My Account is Displayed
-19:57:47.558 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
-19:57:47.558 [main] INFO  testCases.TC003_LoginDDT - Clicking on Home Page
-19:57:48.455 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Page
-19:57:48.455 [main] INFO  testCases.TC003_LoginDDT - Entering Email
-19:57:48.649 [main] INFO  testCases.TC003_LoginDDT - Entering Password
-19:57:48.769 [main] INFO  testCases.TC003_LoginDDT - Clicking on Login Button
-19:57:50.128 [main] DEBUG testCases.TC003_LoginDDT - Checking if My Account is Displayed
-19:57:50.840 [main] INFO  testCases.TC003_LoginDDT - ***** Ending TC003_LoginDDT *****
-20:14:16.863 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\master.xml"
-20:14:21.393 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
-20:14:21.495 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
-20:14:22.197 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
-20:14:22.197 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
-20:14:23.719 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
-20:14:23.759 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
-20:14:27.627 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
-20:14:27.627 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
-20:14:28.146 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
-20:14:28.149 [main] INFO  testCases.TC002_LoginTest - Entering Email
-20:14:28.377 [main] INFO  testCases.TC002_LoginTest - Entering Password
-20:14:28.467 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
-20:14:29.280 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
-20:14:29.321 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
-20:19:49.365 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Workspace\19_05_2024\OpencartV121\master.xml"
-20:19:54.022 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Starting TC001_AccountRegistrationTest *****
-20:19:54.125 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on MyAccount Link
-20:19:54.876 [main] INFO  testCases.TC001_AcoountRegisterationTest - Clicked on Register Link
-20:19:54.877 [main] INFO  testCases.TC001_AcoountRegisterationTest - Providing Customer details... 
-20:19:56.916 [main] INFO  testCases.TC001_AcoountRegisterationTest - Validating Expected Message... 
-20:19:56.954 [main] INFO  testCases.TC001_AcoountRegisterationTest - ***** Finished TC001_AccountRegistrationTest *****
-20:20:00.651 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
-20:20:00.652 [main] INFO  testCases.TC002_LoginTest - Clicking on Home Page
-20:20:01.158 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Page
-20:20:01.161 [main] INFO  testCases.TC002_LoginTest - Entering Email
-20:20:01.366 [main] INFO  testCases.TC002_LoginTest - Entering Password
-20:20:01.457 [main] INFO  testCases.TC002_LoginTest - Clicking on Login Button
-20:20:03.077 [main] DEBUG testCases.TC002_LoginTest - Checking if My Account is Displayed
-20:20:03.119 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+2024-09-07 14:33:58 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\GroupTesing.xml
+
+2024-09-07 14:34:06 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-07 14:34:06 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link
+2024-09-07 14:34:07 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-09-07 14:34:07 INFO  TC001_AccountRegistrationTest:28 - Providing Customer details... 
+2024-09-07 14:34:09 INFO  TC001_AccountRegistrationTest:42 - Validating Expected Message... 
+2024-09-07 14:34:09 INFO  TC001_AccountRegistrationTest:60 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-07 14:34:13 INFO  TC002_LoginTest:17 - ***** Starting TC002_LoginTest *****
+2024-09-07 14:34:13 INFO  TC002_LoginTest:22 - Clicking on Home Page
+2024-09-07 14:34:14 INFO  TC002_LoginTest:28 - Clicking on Login Page
+2024-09-07 14:34:14 INFO  TC002_LoginTest:30 - Entering Email
+2024-09-07 14:34:14 INFO  TC002_LoginTest:32 - Entering Password
+2024-09-07 14:34:14 INFO  TC002_LoginTest:34 - Clicking on Login Button
+2024-09-07 14:34:15 INFO  TC002_LoginTest:50 - ***** Finished TC002_LoginTest *****
+2024-09-07 14:34:19 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2024-09-07 14:34:20 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2024-09-07 14:34:24 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-07 14:34:27 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2024-09-07 14:52:28 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 14:53:57 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 14:54:01 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-07 14:54:04 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2024-09-07 14:54:46 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 15:22:26 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 15:25:48 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 15:36:55 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\ParallelTesting.xml
+
+2024-09-07 15:37:03 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-07 15:37:04 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-07 15:37:04 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link
+2024-09-07 15:37:04 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link
+2024-09-07 15:37:05 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-09-07 15:37:05 INFO  TC001_AccountRegistrationTest:28 - Providing Customer details... 
+2024-09-07 15:37:06 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-09-07 15:37:06 INFO  TC001_AccountRegistrationTest:28 - Providing Customer details... 
+2024-09-07 15:37:09 INFO  TC001_AccountRegistrationTest:42 - Validating Expected Message... 
+2024-09-07 15:37:09 INFO  TC001_AccountRegistrationTest:60 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-07 15:37:10 INFO  TC001_AccountRegistrationTest:42 - Validating Expected Message... 
+2024-09-07 15:37:10 INFO  TC001_AccountRegistrationTest:60 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-07 15:37:11 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-07 15:37:12 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link
+2024-09-07 15:37:13 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-09-07 15:37:13 INFO  TC001_AccountRegistrationTest:28 - Providing Customer details... 
+2024-09-07 15:37:15 INFO  TC002_LoginTest:17 - ***** Starting TC002_LoginTest *****
+2024-09-07 15:37:15 INFO  TC002_LoginTest:22 - Clicking on Home Page
+2024-09-07 15:37:15 INFO  TC001_AccountRegistrationTest:42 - Validating Expected Message... 
+2024-09-07 15:37:15 INFO  TC001_AccountRegistrationTest:60 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-07 15:37:15 INFO  TC002_LoginTest:28 - Clicking on Login Page
+2024-09-07 15:37:15 INFO  TC002_LoginTest:30 - Entering Email
+2024-09-07 15:37:16 INFO  TC002_LoginTest:32 - Entering Password
+2024-09-07 15:37:16 INFO  TC002_LoginTest:34 - Clicking on Login Button
+2024-09-07 15:37:17 INFO  TC002_LoginTest:17 - ***** Starting TC002_LoginTest *****
+2024-09-07 15:37:17 INFO  TC002_LoginTest:22 - Clicking on Home Page
+2024-09-07 15:37:18 INFO  TC002_LoginTest:50 - ***** Finished TC002_LoginTest *****
+2024-09-07 15:37:18 INFO  TC002_LoginTest:28 - Clicking on Login Page
+2024-09-07 15:37:18 INFO  TC002_LoginTest:30 - Entering Email
+2024-09-07 15:37:19 INFO  TC002_LoginTest:32 - Entering Password
+2024-09-07 15:37:19 INFO  TC002_LoginTest:34 - Clicking on Login Button
+2024-09-07 15:37:20 INFO  TC002_LoginTest:50 - ***** Finished TC002_LoginTest *****
+2024-09-07 15:37:23 INFO  TC004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2024-09-07 15:37:25 INFO  TC004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2024-09-07 15:37:27 INFO  TC004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2024-09-07 15:37:29 INFO  TC004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2024-09-07 15:37:29 INFO  TC002_LoginTest:17 - ***** Starting TC002_LoginTest *****
+2024-09-07 15:37:29 INFO  TC002_LoginTest:22 - Clicking on Home Page
+2024-09-07 15:37:30 INFO  TC002_LoginTest:28 - Clicking on Login Page
+2024-09-07 15:37:30 INFO  TC002_LoginTest:30 - Entering Email
+2024-09-07 15:37:30 INFO  TC002_LoginTest:32 - Entering Password
+2024-09-07 15:37:30 INFO  TC005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-07 15:37:30 INFO  TC002_LoginTest:34 - Clicking on Login Button
+2024-09-07 15:37:31 INFO  TC002_LoginTest:50 - ***** Finished TC002_LoginTest *****
+2024-09-07 15:37:36 INFO  TC005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-07 15:37:39 INFO  TC005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+2024-09-07 15:37:45 INFO  TC004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2024-09-07 15:37:46 INFO  TC004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+2024-09-07 15:38:02 INFO  TC005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2024-09-07 15:46:37 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Master.xml
+
+2024-09-07 15:46:44 INFO  TC001_AccountRegistrationTest:15 - ***** Starting TC001_AccountRegistrationTest *****
+2024-09-07 15:46:44 INFO  TC001_AccountRegistrationTest:20 - Clicked on MyAccount Link
+2024-09-07 15:46:45 INFO  TC001_AccountRegistrationTest:23 - Clicked on Register Link
+2024-09-07 15:46:45 INFO  TC001_AccountRegistrationTest:28 - Providing Customer details... 
+2024-09-07 15:46:47 INFO  TC001_AccountRegistrationTest:42 - Validating Expected Message... 
+2024-09-07 15:46:48 INFO  TC001_AccountRegistrationTest:60 - ***** Finished TC001_AccountRegistrationTest *****
+2024-09-07 15:46:54 INFO  TC002_LoginTest:17 - ***** Starting TC002_LoginTest *****
+2024-09-07 15:46:54 INFO  TC002_LoginTest:22 - Clicking on Home Page
+2024-09-07 15:46:54 INFO  TC002_LoginTest:28 - Clicking on Login Page
+2024-09-07 15:46:54 INFO  TC002_LoginTest:30 - Entering Email
+2024-09-07 15:46:54 INFO  TC002_LoginTest:32 - Entering Password
+2024-09-07 15:46:55 INFO  TC002_LoginTest:34 - Clicking on Login Button
+2024-09-07 15:46:56 INFO  TC002_LoginTest:50 - ***** Finished TC002_LoginTest *****
+2024-09-07 15:48:27 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 15:48:34 INFO  TC005_AddToCartPageTest:15 -  *****Starting TC_005_AddToCartPageTest***** 
+2024-09-07 15:48:34 INFO  TC005_AddToCartPageTest:20 -  *****Entering Product Name***** 
+2024-09-07 15:48:34 INFO  TC005_AddToCartPageTest:22 -  *****Clicking On Search Button***** 
+2024-09-07 15:48:35 INFO  TC005_AddToCartPageTest:27 -  *****Checking if Product Exists***** 
+2024-09-07 15:48:36 INFO  TC005_AddToCartPageTest:31 -  *****Entering Product Quantity***** 
+2024-09-07 15:48:37 INFO  TC005_AddToCartPageTest:33 -  *****Entering Product To Cart***** 
+2024-09-07 15:51:20 INFO  Utils:112 - [TestNG] Running:
+  C:\Workspace\19_05_2024\OpencartV121\Single_Test.xml
+
+2024-09-07 15:51:24 INFO  TC005_AddToCartPageTest:15 -  *****Starting TC_005_AddToCartPageTest***** 
+2024-09-07 15:51:24 INFO  TC005_AddToCartPageTest:20 -  *****Entering Product Name***** 
+2024-09-07 15:51:24 INFO  TC005_AddToCartPageTest:22 -  *****Clicking On Search Button***** 
+2024-09-07 15:51:25 INFO  TC005_AddToCartPageTest:27 -  *****Checking if Product Exists***** 
+2024-09-07 15:51:26 INFO  TC005_AddToCartPageTest:31 -  *****Entering Product Quantity***** 
+2024-09-07 15:51:26 INFO  TC005_AddToCartPageTest:33 -  *****Entering Product To Cart***** 

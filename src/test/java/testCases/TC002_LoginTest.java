@@ -37,7 +37,7 @@ public class TC002_LoginTest extends BaseClass{
 	    //MyAccount
 	    logger.debug("Checking if My Account is Displayed");
 	    MyAccountPage macc=new MyAccountPage(driver);
-	    boolean targetPage=macc.isMyAccountPageExistes();
+	    boolean targetPage=macc.isMyAccountPageExists();
 	    
 	    //Assert.assertEquals(targetPage, true, "Login Failed");
 	    Assert.assertTrue(targetPage);

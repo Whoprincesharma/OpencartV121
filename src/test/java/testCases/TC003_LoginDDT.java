@@ -39,7 +39,7 @@ public class TC003_LoginDDT extends BaseClass{
 		//MyAccount
 		logger.debug("Checking if My Account is Displayed");
 		MyAccountPage macc=new MyAccountPage(driver);
-		boolean targetPage=macc.isMyAccountPageExistes();
+		boolean targetPage=macc.isMyAccountPageExists();
 
 		if (exp.equalsIgnoreCase("Valid")) 
 		{
